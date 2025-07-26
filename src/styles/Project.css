@@ -1,0 +1,26 @@
+.parque,.webnotes {
+    background-color: #f5f5f500;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding-top: 220px;
+}
+.parque-btn,
+.webnotes-btn{
+   background-color: transparent;
+  color: rgba(26, 23, 23, 0.849);               
+  border: 2px solid rgba(157, 78, 123, 0);    
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+
+
