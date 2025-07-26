@@ -11,7 +11,7 @@ function Contact() {
             <ul>
                 <li>
                     <MdEmail className="email-icon" />
-                    <a href="mailto:luismy.dev@email.com"> luismy.dev@email.com</a>
+                    <a href="mailto:luismy.dev@email.com"> luismy.dev@gmail.com</a>
                 </li>
                 <li>
                     <MdPhone className="phone-icon" />
