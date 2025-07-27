@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Parque.css";
 
-// 📦 Importa las imágenes desde src/img
 import img1 from "../../img/img1.png";
 import img2 from "../../img/img2.png";
 import img3 from "../../img/img3.png";
@@ -63,11 +62,70 @@ function Parque() {
         rel="noopener noreferrer"
         className="prehistoria-link"
       >
-        Échale un vistazo aqui
+        Échale un vistazo aquí
       </a>
 
-      {/* Tabla de tecnologías y dependencias */}
-      {/* ... tu tabla se mantiene igual ... */}
+      <table className="resumen-tecnologias">
+        <thead>
+          <tr>
+            <th>Tipo</th>
+            <th>Paquete</th>
+            <th>Función Principal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Core</td>
+            <td>react, react-dom</td>
+            <td>Construcción de interfaz y renderizado</td>
+          </tr>
+          <tr>
+            <td>Routing</td>
+            <td>react-router-dom</td>
+            <td>Navegación entre páginas</td>
+          </tr>
+          <tr>
+            <td>i18n</td>
+            <td>i18next, react-i18next</td>
+            <td>Internacionalización multilenguaje</td>
+          </tr>
+          <tr>
+            <td>UI / Estilos</td>
+            <td>bootstrap</td>
+            <td>Estilos base y diseño responsive</td>
+          </tr>
+          <tr>
+            <td>Animación</td>
+            <td>canvas-confetti</td>
+            <td>Efecto visual festivo con partículas</td>
+          </tr>
+          <tr>
+            <td>QR Scanner</td>
+            <td>html5-qrcode</td>
+            <td>Escaneo de códigos QR</td>
+          </tr>
+          <tr>
+            <td>PDF</td>
+            <td>jspdf</td>
+            <td>Generación de diplomas en PDF</td>
+          </tr>
+          <tr>
+            <td>Calidad</td>
+            <td>eslint, plugins</td>
+            <td>Control de estilo y errores del código</td>
+          </tr>
+          <tr>
+            <td>Documentación</td>
+            <td>esdoc</td>
+            <td>Documentación automática del proyecto</td>
+          </tr>
+          <tr>
+            <td>Deploy</td>
+            <td>gh-pages</td>
+            <td>Publicación del proyecto en GitHub Pages</td>
+          </tr>
+        </tbody>
+      </table>
 
       <p>Proyecto de prácticas con la empresa Engranajes Ciencia.</p>
       <p>

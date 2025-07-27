@@ -12,8 +12,12 @@ function About() {
 
                 Me gusta trabajar en equipo, aprender nuevas tecnologías y aportar soluciones prácticas. Busco una oportunidad donde seguir creciendo y aportando valor desde el primer día.
             </p>
-            <a href="CVLMPT/LuisMiguelPerezTeruel.pdf" download className="cv-button">
-                <button>Descargar CV</button>
+            <a
+                href={`${process.env.PUBLIC_URL}/CVLMPT/LuisMiguelPerezTeruel.pdf`}
+                download="LuisMiguel_PerezTeruel_CV.pdf"
+                className="cv-button"
+            >
+                📄 Descargar CV
             </a>
 
         </div>
