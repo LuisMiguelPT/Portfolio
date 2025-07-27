@@ -1,5 +1,6 @@
 import React from "react";
 import { } from '../styles/About.css';
+import cvFile from './CVLMPT/LuisMiguelPerezTeruel.pdf';
 
 function About() {
     return (
@@ -12,9 +13,9 @@ function About() {
 
                 Me gusta trabajar en equipo, aprender nuevas tecnologías y aportar soluciones prácticas. Busco una oportunidad donde seguir creciendo y aportando valor desde el primer día.
             </p>
-            <a href="CVLMPT/LuisMiguelPerezTeruel.pdf" download className="cv-button">
-                <button>Descargar CV</button>
-            </a>
+            <a href={cvFile} download className="cv-button">
+  Descargar CV
+</a>
 
         </div>
     )
